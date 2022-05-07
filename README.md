@@ -1,38 +1,11 @@
 # expo-google-sign-in
 
-> This package has been deprecated in favor of [`expo-auth-session/providers/google`](https://docs.expo.dev/versions/latest/sdk/auth-session/#google). Users can also create custom development clients with the native community package [`@react-native-google-signin/google-signin`](https://www.npmjs.com/package/@react-native-google-signin/google-signin).
+> Source code for the deprecated `expo-google-sign-in` package.
 
-Enables native Google authentication features in your app!
+`expo-google-sign-in` was a classic "Bare Workflow" module that couldn't be used in the Expo Go app due to native build-time requirements. The package also didn't support the web platform and often wasn't on the latest version of the upstream `GoogleSignIn` native package.
 
-# API documentation
+We recommend migrating to the community package [`@react-native-google-signin/google-signin`](https://github.com/react-native-google-signin/google-signin) which supports [EAS Build](https://docs.expo.dev/build/introduction/) and Expo Development Clients!
 
-- [Documentation for the main branch](https://github.com/expo/expo/blob/main/docs/pages/versions/unversioned/sdk/google-sign-in.md)
-- [Documentation for the latest stable release](https://docs.expo.dev/versions/latest/sdk/google-sign-in/)
+Alternatively, you can use the Expo package [`expo-auth-session/providers/google`](https://docs.expo.dev/guides/authentication/#google) which works on iOS, Android, and web. This package does not support the native sign-in modal on Android, instead using a secure web modal (recommended approach for most authentication providers).
 
-# Installation in managed Expo projects
-
-> This package is not supported in the Expo Go app.
-
-For [managed](https://docs.expo.dev/versions/latest/introduction/managed-vs-bare/) Expo projects, please follow the installation instructions in the [API documentation for the latest stable release](https://docs.expo.dev/versions/latest/sdk/google-sign-in/)
-
-# Installation in bare React Native projects
-
-For bare React Native projects, you must ensure that you have [installed and configured the `expo` package](https://docs.expo.dev/bare/installing-expo-modules/) before continuing.
-
-### Add the package to your npm dependencies
-
-```
-expo install expo-google-sign-in
-```
-
-### Configure for iOS
-
-Run `npx pod-install` after installing the npm package.
-
-### Configure for Android
-
-No additional set up necessary.
-
-# Contributing
-
-Contributions are very welcome! Please refer to guidelines described in the [contributing guide](https://github.com/expo/expo#contributing).
+- Documentation: [SDK 45 Google Sign-In](https://github.com/expo/expo/blob/sdk-45/docs/pages/versions/v45.0.0/sdk/google-sign-in.md).

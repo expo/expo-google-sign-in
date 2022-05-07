@@ -20,14 +20,14 @@
     "url": "https://github.com/expo/expo-google-sign-in.git"
   },
   "bugs": {
-    "url": "https://github.com/expo/expo/issues"
+    "url": "https://github.com/expo/expo-google-sign-in/issues"
   },
   "contributors": [
     "Evan Bacon <bacon@expo.io> (https://github.com/evanbacon)"
   ],
   "author": "650 Industries, Inc.",
   "license": "MIT",
-  "homepage": "https://docs.expo.dev/versions/latest/sdk/google-sign-in/",
+  "homepage": "https://github.com/expo/expo-google-sign-in",
   "jest": {
     "preset": "expo-module-scripts"
   },

@@ -1,7 +1,7 @@
 {
   "name": "expo-google-sign-in",
-  "version": "10.2.0",
-  "description": "Enables native Google authentication features in your app!",
+  "version": "11.0.0",
+  "description": "Deprecated Expo module to enable native Google authentication",
   "main": "build/GoogleSignIn.js",
   "types": "build/GoogleSignIn.d.ts",
   "sideEffects": false,
@@ -14,15 +14,7 @@
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module"
   },
-  "keywords": [
-    "react-native",
-    "expo",
-    "google",
-    "firebase",
-    "auth",
-    "sign-in",
-    "oauth"
-  ],
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "https://github.com/expo/expo-google-sign-in.git"

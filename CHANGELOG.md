@@ -10,6 +10,18 @@
 
 ### 💡 Others
 
+## 11.0.0 — 2022-05-07
+
+### 🛠 Breaking changes
+
+### 🎉 New features
+
+### 🐛 Bug fixes
+
+### 💡 Others
+
+- This package (`expo-google-sign-in`) has been fully deprecated in favor of `expo-auth-session` and `@react-native-google-signin/google-signin`. ([#2](https://github.com/expo/expo-google-sign-in/pull/2) by [@EvanBacon](https://github.com/EvanBacon))
+
 ## 10.2.0 — 2022-04-18
 
 ### 🐛 Bug fixes
